@@ -1,0 +1,77 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color:#FCD9B0;
+}
+
+header{
+    background-color: #3D212D;
+    color: #efefef;
+    padding: 1.5rem 2rem;
+}
+
+header h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.flexboxes{
+    display: flex;
+}
+
+.flexboxes a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    width: 250px;
+    margin: 0 auto;
+}
+
+.img{
+    width: 240.5px;
+    margin: auto;
+    padding: 0.3rem;
+}
+
+section article{
+    transition: box-shadow 0.2s ease;
+    background-color: #efefef;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+
+}
+
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+section article h3, section article p{
+    margin: 0.4rem;
+}
+
+footer{
+    background-color: #3D212D;
+    padding: 2rem;
+    color: #efefef;
+}
+
+footer section{
+    float: right;
+}
+
+footer a{
+    transition: color 0.3s ease;
+    color: #efefef;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #FD9675;
+}

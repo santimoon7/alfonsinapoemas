@@ -1,0 +1,14 @@
+HTML guía:
+
+-Crear archivo "index.html"
+-En el VS Code poner "!" y luego apretar tab, borrar las etiquetas META y el lang del HTML, solo dejando <HTML>.
+-Darle título en "<head><head/>"
+-Agregar un <header><header/> y un <footer><footer/> dentro del <body>
+-Entre el <header> y el <footer>, colocar <section><section>. Así logramos organizar mejor el código. Las <section> pueden usarse para hacer los posts. Dejando así:
+	<header>Título del blog/página<header/>
+	<section>Post con párrafos, imagenes, etc.<section/>
+	<footer>Pie de página, contacto, copyright<footer/>
+-Dentro de <header> colocamos los <h1><h1/> con el título del blog.
+	<header>
+		<h1>Título del blog/página<h1/>
+	<header/>
